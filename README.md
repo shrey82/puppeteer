@@ -1,5 +1,6 @@
 # puppeteer
-program for navigating through https://www.google.com/ using puppeteer
+#program for navigating through https://www.google.com/ using puppeteer
+#program code:
 const puppeteer = require('puppeteer');
 puppeteer.launch().then(async browser => {
   const page = await browser.newPage();
